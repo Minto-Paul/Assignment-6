@@ -1,0 +1,194 @@
+={
+    margin: 0;
+    padding: 0;
+}
+.banner-part{
+    background: url(../img/banner.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+       padding: 24px 0px;
+}
+.logo{
+   
+}
+/*Banner Part Start*/
+.banner{
+    text-align: center;
+    padding: 80px 0px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 100px;
+}
+.banner-part h2{
+    color: #fff;
+    font-size: 120px;
+}
+.banner-part p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+.banner-part p:before{
+    content: "";
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+}
+.banner-part .btn{
+    display: block;
+    margin: 8% auto;
+    background: transparent;
+    padding: 8px 20px;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    font-size: 16px;
+}
+
+.fa-chevron-down{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300!important;
+    margin-bottom: 40px;
+}
+/*Banner Part End*/
+.feature-part{
+    background-color: #f6f9f9;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.service-part{
+    background-color: #fff;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.service-icon {
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    background-color: #48baff;
+    color: #fff;
+    padding: 30px 0;
+}
+.service-icon i {
+    font-size: 40px;
+    line-height: 40px;
+}
+.service-item p{
+    line-height: 1.5;
+}
+.service-item h3{
+    color: #2d3950;
+    font-size: 22px;
+    margin: 20px 0;
+}
+/*Gallery Part Start*/
+.gallery-part{
+    padding: 80px 0px;
+    background-color: #f6f9f9;
+}
+.gallery-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.gallery-title p{
+    color: #a4a5a5;
+}
+.single-gallery{
+    padding: 10px;
+}
+/*Gallery Part End*/
+
+/*Form Part Start*/
+.form-part{
+    background: url(../img/form.png)no-repeat;
+    background: -webkit-linear-gradient(#2b364b, rgb(48, 58, 79,0.7)), url("../img/form.png") no-repeat center;
+    background: -o-linear-gradient(#2b364b, rgb(48, 58, 79,0.7)), url("../img/form.png") no-repeat center;
+    background: linear-gradient(#2b364b, rgb(48, 58, 79,0.7)), url("../img/form.png") no-repeat center; 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+.form-part h2{
+    color: #fff;
+    font-size: 40px;
+}
+.form-part p{
+    color: #75787e;
+    font-size: 16px;
+}
+.text-area{
+    width: 60%;
+    background: transparent;
+}
+.form-controol, .col-75{
+    width: 60%;
+    padding: 15px 0px;
+    
+    background: transparent;
+}
+.form-part form input,
+.form-part form textarea {
+    background-color: transparent;
+    
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+    font-size: 30px;
+    
+}
+.form-part .btn{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.form-part form label {
+    color: #fff;
+}
+/*Form Part End*/
+
+/*Footer Part Start*/
+.footer-part{
+    padding: 20px 0px;
+    background-color: #f6f9f9;
+}
+.social-icon a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40PX;
+    text-decoration: none;
+    background-color: #15a4fa;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5PX;
+    border: 1px solid #15a4fa;
+    border-radius: 3PX;
+    transition: .3s;
+}
+.social-icon a:hover {
+    background-color: transparent;
+    color: #15a4fa;
+}
+.copyright{
+    color: #999999;
+}
+/*Footer Part End*/
